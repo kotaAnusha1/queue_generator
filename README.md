@@ -12,14 +12,14 @@ This project is an AI-powered SQL Query Generator that translates natural langua
 - **Secure API Key Management**: Users can input their **Gemini API Key** manually or load it from a `.env` file.
 
 ## Tech Stack
-- **Backend**: Python, OpenAI API, SQLite
+- **Backend**: Python, Gemini API, SQLite
 - **Frontend**: Streamlit
 - **Libraries**: SQL Parsing, python-dotenv
 
 ## 🚀 Installation & Setup
 ### 1️. Clone the Repository
 ```bash
-git clone https://github.com/ghaihitasha/llm-sql-query-generator.git
+git clone https://github.com/kotaAnusha1/queue_generator.git
 cd llm-sql-query-generator
 ```
 
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ### 3. Set Up the `.env` File
 Create a `.env` file in the root directory and add your **OpenAI API Key**:
 ```ini
-OPENAI_API_KEY=your_openai_api_key_here
+Gemini_API_KEY=your_gemini_api_key_here
 ```
 
 ### 4. Run the Streamlit App
@@ -45,7 +45,3 @@ streamlit run src/app.py
 3. Enter a natural language query (e.g., "Show all employees who joined after 2020").
 4. Click **Generate SQL** to get the SQL query.
 5. Validate & Execute the query to see the results.
-
-
-## Contributing
-Pull requests are welcome! If you’d like to contribute, please open an issue first to discuss your changes.
