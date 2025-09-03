@@ -1,18 +1,15 @@
 # LLM-Based SQL Query Generator
 
 ## Project Overview
-This project is an AI-powered SQL Query Generator that translates natural language queries into SQL statements using **GPT-4**. It helps users generate, validate, and execute SQL queries against a specified database schema.
-
-## User Interface
-![image](https://github.com/ghaihitasha/llm-sql-query-generator/blob/main/user_interface.png)
+This project is an AI-powered SQL Query Generator that translates natural language queries into SQL statements using **gemini-1.5-flash**. It helps users generate, validate, and execute SQL queries against a specified database schema.
 
 ## Features
-- **Natural Language to SQL**: Uses OpenAI's GPT-4 to generate SQL queries.
+- **Natural Language to SQL**: Uses Gemini's gemini-1.5-flash to generate SQL queries.
 - **Query Validation**: Ensures generated queries are syntactically correct.
 - **Database Execution**: Runs SQL queries against an SQLite database.
 - **Custom Schema Support**: GPT generates SQL based on your database schema.
 - **User-Friendly UI**: Built with **Streamlit** for ease of use.
-- **Secure API Key Management**: Users can input their **OpenAI API Key** manually or load it from a `.env` file.
+- **Secure API Key Management**: Users can input their **Gemini API Key** manually or load it from a `.env` file.
 
 ## Tech Stack
 - **Backend**: Python, OpenAI API, SQLite
