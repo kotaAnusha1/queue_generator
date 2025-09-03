@@ -1,0 +1,9 @@
+# Ignore dataset & models  
+.env  
+models/  
+__pycache__/  
+venv/  
+*.csv  
+*.json  
+*.ipynb_checkpoints
+data/
